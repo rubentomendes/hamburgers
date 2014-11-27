@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace hamburgers.MasterPages
 {
-    public partial class header : System.Web.UI.MasterPage
+    public partial class Master : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
