@@ -63,8 +63,8 @@
       <DependentUpon>bd.mdf</DependentUpon>
     </Content>
     <Content Include="Default.aspx" />
-    <Content Include="MasterPages\footer.ascx" />
-    <Content Include="MasterPages\header.ascx" />
+    <Content Include="UserControls\footer.ascx" />
+    <Content Include="UserControls\header.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,18 +82,18 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MasterPages\footer.ascx.cs">
+    <Compile Include="UserControls\footer.ascx.cs">
       <DependentUpon>footer.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MasterPages\footer.ascx.designer.cs">
+    <Compile Include="UserControls\footer.ascx.designer.cs">
       <DependentUpon>footer.ascx</DependentUpon>
     </Compile>
-    <Compile Include="MasterPages\header.ascx.cs">
+    <Compile Include="UserControls\header.ascx.cs">
       <DependentUpon>header.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MasterPages\header.ascx.designer.cs">
+    <Compile Include="UserControls\header.ascx.designer.cs">
       <DependentUpon>header.ascx</DependentUpon>
     </Compile>
     <Compile Include="MasterPages\Master.Master.cs">
@@ -107,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPages\Master.Master" />
+    <Content Include="Web.sitemap" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
